@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 3.02″ TFT 170×560 (AXS15231B · SPI)</h1>
 
-<p align="center"><b>Bar TFT module · SPI · AXS15231B</b></p>
+<p align="center"><b>TFT module · SPI · AXS15231B · Multi-Version Index</b></p>
 
-<p align="center"><a href="./README.md">简体中文</a> | English</p>
+<p align="center">English | <a href="./README.md">简体中文</a></p>
 
 <p align="center">
   <img alt="Size: 3.02 inch" src="https://img.shields.io/badge/Size-3.02%22-3498DB?style=flat-square" />
@@ -13,90 +13,61 @@
   <img alt="Driver: AXS15231B" src="https://img.shields.io/badge/Driver-AXS15231B-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 3.02&quot; 170×560 TFT SPI module (AXS15231B) product image" src="./images/product.png" width="640" /></p>
-
 ## Contents
 
-- [Overview](#overview)
-- [Specifications](#specifications)
-- [Sample projects](#sample-projects)
-- [Repository layout](#repository-layout)
-- [Resources](#resources)
-- [Buy](#buy)
+- [About](#about)
+- [Versions](#versions)
+- [YDP302B001-V6](#ydp302b001-v6)
+- [How to Switch Branches](#how-to-switch-branches)
+- [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## Overview
+## About
 
-OSPTEK **3.02″ 170×560 TFT** is a **SPI** color display module. Display and capacitive touch are both driven by **AXS15231B** (touch over I2C). Suited to bar-style HMI and narrow side panels.
+This repository holds materials for the **3.02″ 170×560 TFT (SPI · AXS15231B)** module family.
 
-Spec ID (repository name): `3.02-tft-170x560-spi-axs15231b`
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
-Current module version: **YDP302B001-V6**. Electrical and mechanical details follow [`docs/YDP302B001-V6.pdf`](./docs/YDP302B001-V6.pdf).
+Repo id: `3.02-tft-170x560-spi-axs15231b`
 
-## Specifications
+---
 
-| Item | Spec |
-| ---- | ---- |
-| Size | 3.02 inch |
-| Type | TFT / IPS (color) |
-| Resolution | 170×560 |
-| Interface | SPI (4-wire) |
-| Driver IC | AXS15231B |
-| Touch IC | AXS15231B |
+## Versions
 
-> Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| YDP302B001-V6 | <img alt="YDP302B001-V6" src="./images/YDP302B001-V6.png" width="120" /> | [Details](#ydp302b001-v6) |
 
-## Sample projects
+---
 
-| Description | Path |
-| ---- | ---- |
-| ESP32-S3 · AXS15231B SPI + LVGL8 | [`examples/esp32s3-idf5_axs15231b-spi_lvgl8/`](./examples/esp32s3-idf5_axs15231b-spi_lvgl8/) |
-| ESP32-S3 · AXS15231B SPI + LVGL9 | [`examples/esp32s3-idf5_axs15231b-spi_lvgl9/`](./examples/esp32s3-idf5_axs15231b-spi_lvgl9/) |
-| ESP32-S3 · LVGL8 + TE + software rotate 90° | [`examples/with-te-sw-rotate-90/esp32s3-idf5_axs15231b-spi_lvgl8_lcd-with-te/`](./examples/with-te-sw-rotate-90/esp32s3-idf5_axs15231b-spi_lvgl8_lcd-with-te/) |
+## YDP302B001-V6
 
-## Repository layout
+<p align="center"><img alt="YDP302B001-V6" src="./images/YDP302B001-V6.png" width="320" /></p>
 
-```text
-3.02-tft-170x560-spi-axs15231b/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README assets
-├── docs/            # datasheets, init, test board
-└── examples/        # sample projects
-```
+**Notes:** Module.
 
-## Resources
+---
 
-### Product files
+## How to Switch Branches
 
-| Resource | Link |
-| ---- | ---- |
-| Product datasheet (YDP302B001-V6) | [`docs/YDP302B001-V6.pdf`](./docs/YDP302B001-V6.pdf) |
-| Cover glass CAD (YDP302B001-V6) | [`docs/YDP302B001-V6+盖板.dwg`](./docs/YDP302B001-V6+%E7%9B%96%E6%9D%BF.dwg) |
-| Driver IC datasheet (AXS15231B) | [`docs/AXS15231B_Datasheet_V0.9_20240221-客户版.pdf`](./docs/AXS15231B_Datasheet_V0.9_20240221-客户版.pdf) |
-| Init sequence (text) | [`docs/3.02+15231.txt`](./docs/3.02+15231.txt) |
-| Init reference (C source) | [`docs/lcd.c`](./docs/lcd.c) |
-| 3.02″ screen test board | [`docs/3.02寸屏幕测试板.pdf`](./docs/3.02寸屏幕测试板.pdf) |
+Full product materials are on each **version branch**; `main` is navigation only.
 
-### Samples
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
 
-- [ESP32-S3 AXS15231B SPI + LVGL8](./examples/esp32s3-idf5_axs15231b-spi_lvgl8/)
-- [ESP32-S3 AXS15231B SPI + LVGL9](./examples/esp32s3-idf5_axs15231b-spi_lvgl9/)
-- [ESP32-S3 LVGL8 + TE + software rotate 90°](./examples/with-te-sw-rotate-90/esp32s3-idf5_axs15231b-spi_lvgl8_lcd-with-te/)
+---
 
-## Buy
+## Where to Buy
 
 <p align="center">
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress store" src="https://img.shields.io/badge/AliExpress-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress Official Store" src="https://img.shields.io/badge/AliExpress-Official_Store-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
   &nbsp;&nbsp;
-  <a href="https://shop110742373.taobao.com/"><img alt="Taobao store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://shop110742373.taobao.com/"><img alt="Taobao Official Store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
 </p>
 
-**Overseas (AliExpress)**
+**International (AliExpress)**
 
 - Store: [OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
 
@@ -104,13 +75,15 @@ Current module version: **YDP302B001-V6**. Electrical and mechanical details fol
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
 
+---
+
 ## Support
 
-- Technical support / product inquiry: <luyu@osptek.com>
-- QQ group (China): **985881096**
+- Technical Support / Sales: <luyu@osptek.com>
+- QQ Technical Group: **985881096**
 - Website: <https://osptek.com/>
 - Feel free to open an Issue in this repository if you have any questions
 
 ---
 
-<p align="center"><sub>© 2026 OSPTEK · Materials in this repository are licensed under CC BY 4.0</sub></p>
+<p align="center"><sub>© 2026 OSPTEK · Licensed under CC BY 4.0</sub></p>
