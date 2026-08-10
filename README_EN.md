@@ -46,8 +46,7 @@ Repo id: `3.02-tft-170x560-spi-axs15231b`
 
 <p align="center"><img alt="YDP302B001-V6" src="./images/YDP302B001-V6.png" width="320" /></p>
 
-**Notes:** Module.
-
+**Notes:** With touch (AXS15231B).
 ---
 
 ## How to Switch Branches
