@@ -18,7 +18,6 @@
 - [Overview](#overview)
 - [Specifications](#specifications)
 - [Sample projects](#sample-projects)
-- [Prebuilt firmware](#prebuilt-firmware)
 - [Repository layout](#repository-layout)
 - [Resources](#resources)
 - [Buy](#buy)
@@ -53,12 +52,6 @@ Current module version: **YDP302B003-V1**. Mechanical outline follows [`docs/YDP
 | ---- | ---- |
 | ESP32-S3 · AXS15231B SPI + LVGL8 (bringup) | [`examples/esp32s3-3.02-tft-170x560-spi-axs15231b-bringup/`](./examples/esp32s3-3.02-tft-170x560-spi-axs15231b-bringup/) |
 
-## Prebuilt firmware
-
-| File | Notes |
-| ---- | ---- |
-| [`firmware/esp32s3-idf5_axs15231b-spi_lvgl8.bin`](./firmware/esp32s3-idf5_axs15231b-spi_lvgl8.bin) | Merged binary matching the bringup sample above |
-
 ## Repository layout
 
 ```text
@@ -69,7 +62,6 @@ Current module version: **YDP302B003-V1**. Mechanical outline follows [`docs/YDP
         ├── README_EN.md
         ├── images/
         ├── docs/
-        ├── firmware/
         └── examples/
 ```
 
