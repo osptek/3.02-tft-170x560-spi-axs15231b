@@ -81,8 +81,7 @@ Current module version: **YDP302B003-V1**. Mechanical outline follows [`docs/YDP
 | ---- | ---- |
 | Outline CAD (YDP302B003-V1) | [`docs/YDP302B003-V1.dwg`](./docs/YDP302B003-V1.dwg) |
 | Driver IC datasheet (AXS15231B) | [`docs/AXS15231B_Datasheet_V0.9_20240221-客户版.pdf`](./docs/AXS15231B_Datasheet_V0.9_20240221-客户版.pdf) |
-| Init sequence (text) | [`docs/3.02+15231.txt`](./docs/3.02+15231.txt) |
-| Init reference (C source) | [`docs/lcd.c`](./docs/lcd.c) |
+| Init sequence for this SKU | See `lcd_init_cmds` in [`main/main.c`](./examples/esp32s3-3.02-tft-170x560-spi-axs15231b-bringup/main/main.c) (differs from YDP302B001-V6; do not mix) |
 
 ### Samples
 
