@@ -80,7 +80,7 @@ OSPTEK **3.02 寸 170×560 TFT** 是一款 **SPI** 接口彩色显示模组，�
 | 驱动 IC 数据手册（AXS15231B） | [`docs/AXS15231B_Datasheet_V0.9_20240221-客户版.pdf`](./docs/AXS15231B_Datasheet_V0.9_20240221-客户版.pdf) |
 | 初始化序列（文本） | [`docs/3.02+15231.txt`](./docs/3.02+15231.txt) |
 | 初始化参考（C 源码） | [`docs/lcd.c`](./docs/lcd.c) |
-| 3.02 寸屏幕测试板 | [`docs/3.02寸屏幕测试板.pdf`](./docs/3.02寸屏幕测试板.pdf) |
+| 3.02 寸转接板 | [`docs/3.02寸转接板.pdf`](./docs/3.02%E5%AF%B8%E8%BD%AC%E6%8E%A5%E6%9D%BF.pdf) |
 
 ### 示例工程
 
