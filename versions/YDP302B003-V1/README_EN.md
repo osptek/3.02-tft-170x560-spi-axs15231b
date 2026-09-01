@@ -51,7 +51,6 @@ Current module version: **YDP302B003-V1**. Mechanical outline follows [`docs/YDP
 | Description | Path |
 | ---- | ---- |
 | ESP32-S3 · AXS15231B SPI + LVGL8 (bringup) | [`examples/esp32s3-3.02-tft-170x560-spi-axs15231b-bringup/`](./examples/esp32s3-3.02-tft-170x560-spi-axs15231b-bringup/) |
-| ESP32-S3 · AXS15231B QSPI + hardware rotate 90° (560×170) | [`examples/esp32s3-3.02-tft-170x560-qspi-axs15231b-bringup/`](./examples/esp32s3-3.02-tft-170x560-qspi-axs15231b-bringup/) |
 
 ## Repository layout
 
@@ -79,7 +78,6 @@ Current module version: **YDP302B003-V1**. Mechanical outline follows [`docs/YDP
 ### Samples
 
 - [ESP32-S3 AXS15231B SPI + LVGL8 (bringup)](./examples/esp32s3-3.02-tft-170x560-spi-axs15231b-bringup/)
-- [ESP32-S3 AXS15231B QSPI + hardware rotate 90°](./examples/esp32s3-3.02-tft-170x560-qspi-axs15231b-bringup/)
 
 ## Buy
 

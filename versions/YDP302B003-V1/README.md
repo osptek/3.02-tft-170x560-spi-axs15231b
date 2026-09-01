@@ -51,7 +51,6 @@ OSPTEK **3.02 寸 170×560 TFT** 是一款 **SPI** 接口彩色显示模组，�
 | 说明 | 路径 |
 | ---- | ---- |
 | ESP32-S3 · AXS15231B SPI + LVGL8（bringup） | [`examples/esp32s3-3.02-tft-170x560-spi-axs15231b-bringup/`](./examples/esp32s3-3.02-tft-170x560-spi-axs15231b-bringup/) |
-| ESP32-S3 · AXS15231B QSPI + 硬件旋转 90°（560×170） | [`examples/esp32s3-3.02-tft-170x560-qspi-axs15231b-bringup/`](./examples/esp32s3-3.02-tft-170x560-qspi-axs15231b-bringup/) |
 
 ## 仓库结构
 
@@ -79,7 +78,6 @@ OSPTEK **3.02 寸 170×560 TFT** 是一款 **SPI** 接口彩色显示模组，�
 ### 示例工程
 
 - [ESP32-S3 AXS15231B SPI + LVGL8（bringup）](./examples/esp32s3-3.02-tft-170x560-spi-axs15231b-bringup/)
-- [ESP32-S3 AXS15231B QSPI + 硬件旋转 90°](./examples/esp32s3-3.02-tft-170x560-qspi-axs15231b-bringup/)
 
 ## 购买链接
 
