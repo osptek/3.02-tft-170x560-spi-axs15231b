@@ -55,6 +55,7 @@ OSPTEK **3.02 寸 170×560 TFT** 是一款 **SPI** 接口彩色显示模组，�
 | ESP32-S3 · AXS15231B SPI + LVGL8 | [`examples/esp32s3-idf5_axs15231b-spi_lvgl8/`](./examples/esp32s3-idf5_axs15231b-spi_lvgl8/) |
 | ESP32-S3 · AXS15231B SPI + LVGL9 | [`examples/esp32s3-idf5_axs15231b-spi_lvgl9/`](./examples/esp32s3-idf5_axs15231b-spi_lvgl9/) |
 | ESP32-S3 · LVGL8 + TE + 软件旋转 90° | [`examples/with-te-sw-rotate-90/esp32s3-idf5_axs15231b-spi_lvgl8_lcd-with-te/`](./examples/with-te-sw-rotate-90/esp32s3-idf5_axs15231b-spi_lvgl8_lcd-with-te/) |
+| ESP32-S3 · AXS15231B QSPI + 硬件旋转 90°（560×170） | [`examples/esp32s3-3.02-tft-170x560-qspi-axs15231b-bringup/`](./examples/esp32s3-3.02-tft-170x560-qspi-axs15231b-bringup/) |
 
 ## 仓库结构
 
@@ -87,6 +88,7 @@ OSPTEK **3.02 寸 170×560 TFT** 是一款 **SPI** 接口彩色显示模组，�
 - [ESP32-S3 AXS15231B SPI + LVGL8](./examples/esp32s3-idf5_axs15231b-spi_lvgl8/)
 - [ESP32-S3 AXS15231B SPI + LVGL9](./examples/esp32s3-idf5_axs15231b-spi_lvgl9/)
 - [ESP32-S3 LVGL8 + TE + 软件旋转 90°](./examples/with-te-sw-rotate-90/esp32s3-idf5_axs15231b-spi_lvgl8_lcd-with-te/)
+- [ESP32-S3 AXS15231B QSPI + 硬件旋转 90°](./examples/esp32s3-3.02-tft-170x560-qspi-axs15231b-bringup/)
 
 ## 购买链接
 
